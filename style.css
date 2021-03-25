@@ -19,7 +19,7 @@ header img {
 
 @media (max-width:768px) {
 
-    header { 
+    .header { 
         text-align: center;
     }   
 
@@ -37,7 +37,7 @@ main {
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.new-task-wrapper {
     display: flex;
 }
 
@@ -109,7 +109,11 @@ label[for="new-task"] {
     width: 318px;
 }
 
-p > button:hover {
+.new-task-wrapper__button:hover {
+    color: #0FC57C;
+}
+
+.new-task-wrapper__button:hover {
     color: #0FC57C;
 }
 
