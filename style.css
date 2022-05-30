@@ -45,16 +45,16 @@
 }
 
 .tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .tasks-item, .title-h3 {
-  list-style:none;
+  list-style: none;
 }
 
 .tasks-input,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -157,14 +157,14 @@
 
 /* Edit Task */
 .tasks-item .tasks-input[type=text] {
-  display:none
+  display: none
 }
 
 .tasks-item.edit-mode .tasks-input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks-item.edit-mode .tasks-input-label {
-  display:none;
+  display: none;
 }
